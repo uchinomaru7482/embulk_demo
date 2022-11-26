@@ -1,0 +1,17 @@
+in:
+  type: mysql
+  host: mysql
+  user: root
+  password: root
+  database: app_develop
+  table: users
+  select: id, created_at, updated_at, deleted_at, name
+
+out:
+  type: mysql
+  host: mysql-copy
+  user: root
+  password: root
+  database: app_develop
+  table: users
+  mode: insert

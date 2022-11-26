@@ -1,0 +1,7 @@
+timezone: "Asia/Tokyo"
+
+schedule:
+  cron>: 40 23 * * *
+
++task1:
+  sh>: embulk run config.yml

@@ -1,0 +1,1 @@
+embulk run config.yml
